@@ -13,8 +13,8 @@ Esta é uma API RESTful construída com Spring Boot para gerenciar produtos. A a
 ## Tecnologias Utilizadas
 
 -   **Java 17**
--   **Spring Boot 3.x**
--   **Spring Security 6.x** (OAuth2 Resource Server)
+-   **Spring Boot 3.5.4**
+-   **Spring Security 6.3.0** (OAuth2 Resource Server)
 -   **Maven** (Gerenciador de dependências)
 -   **JPA / Hibernate** (Persistência de dados)
 -   **H2 Database** (Banco de dados em memória)
@@ -69,6 +69,3 @@ A API estará disponível em `http://localhost:8080`.
 | :----- | :--------------- | :------------------------- | :-------------- |
 | `GET`  | `/api/products`  | Lista todos os produtos.   | `USER` ou `ADMIN` |
 | `POST` | `/api/products`  | Cria um novo produto.      | `ADMIN`         |
-
-```bash
-mvn test
